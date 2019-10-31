@@ -3,6 +3,7 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   line-height: 1.5;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -10,19 +11,13 @@ html {
 }
 
 body{
-  background-color:#eee9de;
   margin: 0;
   text-align: center;
 }
 
-img {
-  width:100%;
-  display: block;
-  margin: auto;
-  background-color: #333;
-}
 
-.gizaimage{
+
+.gizaimage {
   max-width: 25em;
   padding: 1em;
   margin: 0;
@@ -30,8 +25,16 @@ img {
   width: 100%;
 }
 
+img {
+  width:100%;
+  display: block;
+}
+
 h2 {
-  font-family: Lato bold;
+  line-height: 1.5;
+  text-align: left;
+  display: inline-block;
+  font-weight: bold;
 }
 
 div {
@@ -43,21 +46,31 @@ div {
   vertical-align: middle;
 }
 
-.content{
 
+.content{
+margin: 0;
+padding: 2em 0;
+background-color: #eee9de;
 }
 
 .btn {
   box-sizing: border-box;
   color: #000;
-  border: 2px solid #000;
+  border: 3px solid #333;
   border-radius: 5px;
-  padding: 0.5rem;
+  padding: 0.4em 0.75em .5em;
   font-family: Lato, serif;
   display: inline-block;
 }
 
 .btn a:hover {
   background-color: #666;
-  color: #fff;
+  color: #f2f2f2;
+}
+
+.content{
+  padding: 1em;
+  display:inline-block;
+  width: 100%;
+  max-width: 25em;
 }
