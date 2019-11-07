@@ -10,12 +10,10 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
   text-align: center;
 }
-
-
 
 .gizaimage {
   max-width: 25em;
@@ -26,7 +24,7 @@ body{
 }
 
 img {
-  width:100%;
+  width: 100%;
   display: block;
 }
 
@@ -46,11 +44,13 @@ div {
   vertical-align: middle;
 }
 
-
-.content{
-margin: 0;
-padding: 2em 0;
-background-color: #eee9de;
+.content {
+  margin: 0;
+  padding: 2em 0;
+  background-color: #eee9de;
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
 }
 
 .btn {
@@ -58,19 +58,13 @@ background-color: #eee9de;
   color: #000;
   border: 3px solid #333;
   border-radius: 5px;
-  padding: 0.4em 0.75em .5em;
+  padding: .4em .75em .5em;
   font-family: Lato, serif;
   display: inline-block;
+  text-decoration: none;
 }
 
 .btn a:hover {
   background-color: #666;
   color: #f2f2f2;
-}
-
-.content{
-  padding: 1em;
-  display:inline-block;
-  width: 100%;
-  max-width: 25em;
 }
