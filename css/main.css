@@ -3,7 +3,7 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   line-height: 1.5;
-  vertical-align: middle;
+
 }
 
 *, *::before, *::after {
@@ -15,23 +15,13 @@ body {
   text-align: center;
 }
 
-.gizaimage {
-  max-width: 25em;
-  padding: 1em;
-  margin: 0;
-  display: inline-block;
-  width: 100%;
-}
-
 img {
   width: 100%;
   display: block;
 }
 
 h2 {
-  line-height: 1.5;
   text-align: left;
-  display: inline-block;
   font-weight: bold;
 }
 
@@ -44,13 +34,9 @@ div {
   vertical-align: middle;
 }
 
-.content {
-  margin: 0;
-  padding: 2em 0;
-  background-color: #eee9de;
-  display: inline-block;
-  width: 100%;
-  max-width: 25em;
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .btn {
@@ -59,7 +45,6 @@ div {
   border: 3px solid #333;
   border-radius: 5px;
   padding: .4em .75em .5em;
-  font-family: Lato, serif;
   display: inline-block;
   text-decoration: none;
 }
